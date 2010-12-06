@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
   s.files = %w(.document .gitignore LICENSE README.rdoc Rakefile padrino-helpers.gemspec) + Dir.glob("{bin,lib,test}/**/*")
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_path = "lib"
-  s.add_dependency("padrino-core", Padrino.version)
+  s.add_dependency("padrino-support", Padrino.version)
   s.add_dependency("i18n", ">=0.4.1")
 end

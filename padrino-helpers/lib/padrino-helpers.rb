@@ -1,4 +1,4 @@
-require 'padrino-core/support_lite' unless defined?(SupportLite)
+require 'padrino-support' unless defined?(SupportLite)
 require 'cgi'
 require 'i18n'
 
